@@ -11,6 +11,9 @@ editor: source
 ---
 
 ```{r}
+#| echo: false
+#| message: false
+#| warning: false
 library(tidyverse)
 ```
 
@@ -57,7 +60,9 @@ Suppose we were interested in looking in more closely at the province
 with the highest spread (in terms of standard deviation) of horse populations. 
 We present the standard deviations in @tbl-horses-sd.
 
-```{r echo=FALSE}
+```{r echo=FALSE} 
+#| message: false
+#| warning: false
 #| label: tbl-horses-sd
 #| tbl-cap: "Standard deviation of historical (1906-1972) horse populations for each Canadian province."
 #| fig-width: 7
